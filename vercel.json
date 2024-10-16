@@ -3,6 +3,6 @@
             "src": "/docker.cloud-cc.top/(.*)",
             "dest": "https://hub.docker.com/$1"
         },
-            {"src": "/(.*)","dest": "hub.docker.com/$1"}
+            {"src": "/(.*)","dest": "https://hub.docker.com/$1"}
     ]
 }
