@@ -1,6 +1,6 @@
 {
     "routes": [{
-            "src": "/docker.cloud-cc.top/(.*)",
+            "src": "/dp/(.*)",
             "dest": "https://hub.docker.com/$1"
         },
             {"src": "/(.*)","dest": "https://hub.docker.com/$1"}
