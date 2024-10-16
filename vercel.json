@@ -1,8 +1,5 @@
 {
-    "routes": [{
-            "src": "/dp/(.*)",
-            "dest": "https://hub.docker.com/$1"
-        },
+    "routes": [
             {"src": "/(.*)","dest": "https://hub.docker.com/$1"}
     ]
 }
